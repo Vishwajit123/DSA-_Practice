@@ -31,7 +31,7 @@ class jan30 {
             heights[i] = sc.nextInt();
         }
 
-        jan30 obj = new jan30();  // create object
+        jan30 obj = new jan30();  
         int result = obj.heightChecker(heights);
 
         System.out.println("Number of students in wrong positions: " + result);
