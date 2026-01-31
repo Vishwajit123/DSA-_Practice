@@ -1,6 +1,6 @@
 import java.util.*;
 
-class jan31 {
+class Solution {
 
     public static int largestSumAfterKNegations(int[] nums, int k) {
         Arrays.sort(nums);
@@ -30,16 +30,21 @@ class jan31 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt(); 
+        System.out.println("Enter number of elements in the array:");
+        int n = sc.nextInt();
+
         int[] nums = new int[n];
 
+        System.out.println("Enter the array elements:");
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
 
+        System.out.println("Enter the value of k (number of negations):");
         int k = sc.nextInt();
 
         int result = largestSumAfterKNegations(nums, k);
-        System.out.println(result);
+
+        System.out.println("Maximum possible sum after " + k + " negations is: " + result);
     }
 }
