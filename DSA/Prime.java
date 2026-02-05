@@ -17,7 +17,7 @@ class Prime {
             }
         }
 
-        System.out.println("\nTotal primes: " + count); 
+        System.out.println("Total primes: " + count); 
     }
 
     public static boolean isPrime(int num) {
