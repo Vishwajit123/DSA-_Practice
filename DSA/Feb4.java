@@ -1,3 +1,5 @@
+// ---------------------------------------------  Maximum Gap ---------------------------------------------------
+
 import java.util.*;
 
 class Feb4 {
@@ -20,13 +22,13 @@ class Feb4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input size
+    
         System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
 
         int[] nums = new int[n];
 
-        // Input array
+        
         System.out.println("Enter the elements:");
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
