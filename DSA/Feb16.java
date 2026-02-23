@@ -22,7 +22,7 @@ public class ArrayPartition {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter total number of elements (must be even): ");
-        int n = sc.nextInt();
+        int n = sc.nextInt(); 
 
         int[] nums = new int[n];
 
