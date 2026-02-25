@@ -8,7 +8,7 @@ class Solution {
     }
 }
 public class FEB24{
-    public static void main(String ... vishva){
+    public static void main(String ... vishwa){
         Solution sol = new Solution();
         System.out.print("Enter the val 1: ");
         int div = new java.util.Scanner(System.in).nextInt();
