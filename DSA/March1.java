@@ -13,8 +13,6 @@
 // Sum these products for all characters in the string.
 // Return the reverse degree of s.
 
- 
-
 // Example 1:
 
 // Input: s = "abc"
