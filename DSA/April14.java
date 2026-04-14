@@ -1,0 +1,31 @@
+import java.util.*;
+
+class Solution {
+    public int minimumSum(int num) {
+        int[] digits = new int[4];
+        
+        for(int i = 0; i < 4; i++){
+            digits[i] = num % 10;
+            num /= 10;
+        }
+        
+        Arrays.sort(digits);
+        
+        int new1 = digits[0] * 10 + digits[2];
+        int new2 = digits[1] * 10 + digits[3];
+
+        return new1 + new2;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter a 4-digit number: ");
+        int num = sc.nextInt();
+        
+        Solution obj = new Solution();
+        int result = obj.minimumSum(num);
+        
+        System.out.println("Minimum Sum: " + result);
+    }
+}
