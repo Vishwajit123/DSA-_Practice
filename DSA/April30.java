@@ -10,8 +10,7 @@ public class April30 {
 
         int n = sc.nextInt();  
 
-        System.out.println(canWinNim(n));
+        System.out.(canWinNim(n));
 
-        sc.close();
     }
 }
